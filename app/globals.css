@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+
+	padding: 20px 0;
+
+	color: #FFFFFF;
+
+	background: #000000;
+}
+
+nav {
+	margin: 0 auto;
+}
+
+nav a {
+	margin-right: 10px;
+
+	color: #FFFFFF;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	padding: 20px 0;
+
+	text-align: center;
+
+	color: #FFFFFF;
+	background: #6F6F6F;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.name-list {
+	text-align: center;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+
+	margin-bottom: 20px;
+}
+
+button {
+	display: block;
+}
+
+h1, h2 {
+	text-align: center;
+}
