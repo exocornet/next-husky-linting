@@ -1,0 +1,8 @@
+// # СТИЛИ ОТСТУПОВ PADDING # //
+@include utilities(p, padding);
+@include utilities(py, padding-block);
+@include utilities(px, padding-inline);
+@include utilities(pt, padding-top);
+@include utilities(pr, padding-right);
+@include utilities(pb, padding-bottom);
+@include utilities(pl, padding-left);

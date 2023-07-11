@@ -1,0 +1,179 @@
+.col {
+	width: 100%;
+	padding-inline: 20px;
+
+	// для размера XXL
+	&-12 {
+		flex: 0 0 100%;
+
+		max-width: 100%;
+	}
+
+	&-11 {
+		flex: 0 0 91.63%;
+
+		max-width: 91.63%;
+	}
+
+	&-10 {
+		flex: 0 0 83.33%;
+
+		max-width: 83.33%;
+	}
+
+	&-9 {
+		flex: 0 0 74.97%;
+
+		max-width: 74.97%;
+	}
+
+	&-8 {
+		flex: 0 0 66.64%;
+
+		max-width: 66.64%;
+	}
+
+	&-7 {
+		flex: 0 0 58.31%;
+
+		max-width: 58.31%;
+	}
+
+	&-6 {
+		flex: 0 0 49.98%;
+
+		max-width: 49.98%;
+	}
+
+	&-5 {
+		flex: 0 0 41.65%;
+
+		max-width: 41.65%;
+	}
+
+	&-4 {
+		flex: 0 0 33.33%;
+
+		max-width: 33.33%;
+	}
+
+	&-3 {
+		flex: 0 0 24.99%;
+
+		max-width: 24.99%;
+	}
+
+	&-2 {
+		flex: 0 0 16.66%;
+
+		max-width: 16.66%;
+	}
+
+	&-1 {
+		flex: 0 0 8.33%;
+
+		max-width: 8.33%;
+	}
+
+	// для размера LG
+	@include media(lg) {
+		&-12\@lg {
+			flex: 0 0 100%;
+
+			max-width: 100%;
+		}
+
+		&-11\@lg {
+			flex: 0 0 91.63%;
+
+			max-width: 91.63%;
+		}
+
+		&-10\@lg {
+			flex: 0 0 83.33%;
+
+			max-width: 83.33%;
+		}
+
+		&-9\@lg {
+			flex: 0 0 74.97%;
+
+			max-width: 74.97%;
+		}
+
+		&-8\@lg {
+			flex: 0 0 66.64%;
+
+			max-width: 66.64%;
+		}
+
+		&-7\@lg {
+			flex: 0 0 58.31%;
+
+			max-width: 58.31%;
+		}
+
+		&-6\@lg {
+			flex: 0 0 49.98%;
+
+			max-width: 49.98%;
+		}
+
+		&-5\@lg {
+			flex: 0 0 41.65%;
+
+			max-width: 41.65%;
+		}
+
+		&-4\@lg {
+			flex: 0 0 33.33%;
+
+			max-width: 33.33%;
+		}
+
+		&-3\@lg {
+			flex: 0 0 24.99%;
+
+			max-width: 24.99%;
+		}
+
+		&-2\@lg {
+			flex: 0 0 16.66%;
+
+			max-width: 16.66%;
+		}
+
+		&-1\@lg {
+			flex: 0 0 8.33%;
+
+			max-width: 8.33%;
+		}
+	}
+
+	// для размера XS
+	@include media(xs) {
+		&-4\@xs {
+			flex: 0 0 100%;
+
+			max-width: 100%;
+		}
+
+		&-3\@xs {
+			flex: 0 0 75%;
+
+			max-width: 75%;
+		}
+
+		&-2\@xs {
+			flex: 0 0 50%;
+
+			max-width: 50%;
+		}
+
+		&-1\@xs {
+			flex: 0 0 25%;
+
+			max-width: 25%;
+		}
+	}
+}

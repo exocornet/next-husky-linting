@@ -1,0 +1,12 @@
+// # ПАРАМЕТРЫ ПОДКЛЮЧЕНИЯ ШРИФТОВ # //
+// ## определение пути к подключаемому шрифту ## //
+$include-font-path: "../../../../public/fonts/";
+// ## определение типов подключаемых шрифтов ## //
+$include-font-types: ("otf": "opentype", "ttf": "truetype");
+// ## определение имени шрифта для вызова в проекте ## //
+$include-font-family: "Uralsib";
+
+// # ВЫЗОВ МИКСИНА ПОДКЛЮЧЕНИЯ ШРИФТОВ # //
+@include includeFont("Uralsib-Light", 300);
+@include includeFont("Uralsib-Regular", 400);
+@include includeFont("Uralsib-Bold", 700);

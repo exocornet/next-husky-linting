@@ -1,0 +1,75 @@
+// # ПОДКЛЮЧЕНИЕ SCSS ПЕРЕМЕННЫХ ДЛЯ root.scss и default.scss # //
+@import "../../helpers/swiss-knife-scss/variables";
+
+// # ОБЪЯВЛЕНИЕ CSS ПЕРЕМЕННЫХ ДЛЯ ROOT # //
+$variables-root: variables-root((
+	// определение стилей для default (layer-elements)
+	"body-font-family": "Uralsib",
+	"body-font-size": 1.6rem,
+	"body-font-weight": 400,
+	"body-line-height": 1.5,
+	"link-color": hsla(271, 60%, 23%, 1),
+	"link-hover-color": hsla(271, 60%, 23%, 0.6),
+));
+
+// # ПЕРЕОПРЕДЕЛЕНИЕ ПЕРЕМЕННЫХ ДЛЯ МЕДИАЗАПРОСОВ # //
+$media-direction: "max";
+$breakpoints: (
+	xs: 360,
+	lg: 1280,
+	xxl: 1980,
+);
+
+// # SCSS ПЕРЕМЕННЫЕ # //
+//$column-gap: var(--column-gap, 0);
+//// ==> переменные цветов
+//// color standard
+//$selection-color: var(--selection-color);
+//$black: var(--black);
+//$white: var(--white);
+//$gray: var(--gray);
+//$light-gray: var(--light-gray);
+//$dark-gray: var(--dark-gray);
+//$light-blue: var(--light-blue);
+//$bright-blue-50: var(--bright-blue-50);
+//$dark-blue: var(--dark-blue);
+//$bright-blue: var(--bright-blue);
+//$bright-blue-50: var(--bright-blue-50);
+//$red: var(--red);
+//$green: var(--green);
+//$orange: var(--orange);
+//$transparent: var(--transparent);
+//
+//// color hover
+//$bright-blue-hover: var(--bright-blue-hover);
+//$red-hover: var(--red-hover);
+//$green-hover: var(--green-hover);
+//
+//// color gradient
+//$gray-gradient: var(--gray-gradient);
+//$blue-gradient: var(--blue-gradient);
+//
+//// fonts
+//$font-formular: var(--font-formular);
+//$font-beausans: var(--font-beausans);
+//$font-beausansxthin: var(--font-beausansxthin);
+//
+//// shadows
+//$bx-shadow: var(--bx-shadow);
+//
+//
+//// ==> переменные экранов отображения
+//// mobile (xs)
+//$screen-min-xs: 320px;
+//$screen-max-xs: 767px;
+//
+//// tablet
+//$screen-min-sm: 768px;
+//$screen-max-sm: 1023px;
+//
+//// horizontal tablet and notebook (lg)
+//$screen-min-lg: 1024px;
+//$screen-max-lg: 1439px;
+//
+//// desktop (xl)
+//$screen-min-xl: 1440px;

@@ -1,0 +1,8 @@
+// # СТИЛИ ОТСТУПОВ MARGIN # //
+@include utilities(m, margin);
+@include utilities(my, margin-block);
+@include utilities(mx, margin-inline);
+@include utilities(mt, margin-top);
+@include utilities(mr, margin-right);
+@include utilities(mb, margin-bottom);
+@include utilities(ml, margin-left);

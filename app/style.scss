@@ -1,3 +1,17 @@
-.not-me {
-	width: 5px;
-}
+// ## СТИЛИ ДЛЯ НАЧАЛЬНЫХ СУЩНОСТЕЙ И ПРОСТЫХ КОМПОНЕНТОВ  ## //
+@import "../shared/shared";
+
+// ------------ layer Components ------------ //
+// ## СТИЛИ ДЛЯ СЛОЖНЫХ КОМПОНЕНТОВ ## //
+@import "../components/components";
+// ## СТИЛИ ДЛЯ СЛОЖНЫХ КОМПОНЕНТОВ ИМЕЮЩИХ БИЗНЕС-ЛОГИКУ ## //
+@import "../features/features";
+// ## СТИЛИ ДЛЯ СЕКЦИЙ ## //
+@import "../sections/sections";
+// ## СТИЛИ ДЛЯ СТРАНИЦ ## //
+@import "pages";
+
+// ------------ layer Utilities ------------ //
+// ## СЕТКА И ЧАСТО ИСПОЛЬЗУЕМЫЕ СТИЛИ ## //
+@import "../shared/ui/grid/grid";
+@import "../shared/styles/layer-utilities/utilities";

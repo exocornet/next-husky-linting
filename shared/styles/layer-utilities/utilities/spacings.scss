@@ -1,0 +1,11 @@
+// # ПЕРЕМЕННАЯ ДЛЯ ОТСТУПОВ # //
+$property-values: (auto, 0);
+// # СТИЛИ ОТСТУПОВ MARGIN # //
+@import "../../../helpers/swiss-knife-scss/layer-utilities/utilities/margin.scss";
+// # СТИЛИ ОТСТУПОВ PADDING # //
+@import "../../../helpers/swiss-knife-scss/layer-utilities/utilities/padding.scss";
+
+// # ПЕРЕМЕННАЯ ДЛЯ ОТСТУПОВ GAP # //
+$property-values: (0);
+// # СТИЛИ ОТСТУПОВ GAP # //
+@import "../../../helpers/swiss-knife-scss/layer-utilities/utilities/gap.scss";

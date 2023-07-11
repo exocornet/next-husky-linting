@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	box-sizing: $box-sizing;
+}
+
+::selection {
+	background: $selection-color;
+}
+
+html {
+	font-size: $html-font-size;
+}
+
+body {
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	font-weight: $body-font-weight;
+	font-style: $body-font-style;
+	line-height: $body-line-height;
+}
+
+a {
+	transition: color $link-transition-color;
+
+	color: $link-color;
+
+	&:hover {
+		color: $link-hover-color;
+	}
+}
+
+hr {
+	background: $hr-color;
+}

@@ -1,0 +1,185 @@
+.order {
+	&-first {
+		order: -1;
+	}
+
+	&-last {
+		order: 13;
+	}
+
+	&-0 {
+		order: 0;
+	}
+
+	&-1 {
+		order: 1;
+	}
+
+	&-2 {
+		order: 2;
+	}
+
+	&-3 {
+		order: 3;
+	}
+
+	&-4 {
+		order: 4;
+	}
+
+	&-5 {
+		order: 5;
+	}
+
+	&-6 {
+		order: 6;
+	}
+
+	&-7 {
+		order: 7;
+	}
+
+	&-8 {
+		order: 8;
+	}
+
+	&-9 {
+		order: 9;
+	}
+
+	&-10 {
+		order: 10;
+	}
+
+	&-11 {
+		order: 11;
+	}
+
+	&-12 {
+		order: 12;
+	}
+
+	@include to-lg {
+		&-lg-first {
+			order: -1;
+		}
+
+		&-lg-last {
+			order: 13;
+		}
+
+		&-lg-0 {
+			order: 0;
+		}
+
+		&-lg-1 {
+			order: 1;
+		}
+
+		&-lg-2 {
+			order: 2;
+		}
+
+		&-lg-3 {
+			order: 3;
+		}
+
+		&-lg-4 {
+			order: 4;
+		}
+
+		&-lg-5 {
+			order: 5;
+		}
+
+		&-lg-6 {
+			order: 6;
+		}
+
+		&-lg-7 {
+			order: 7;
+		}
+
+		&-lg-8 {
+			order: 8;
+		}
+
+		&-lg-9 {
+			order: 9;
+		}
+
+		&-lg-10 {
+			order: 10;
+		}
+
+		&-lg-11 {
+			order: 11;
+		}
+
+		&-lg-12 {
+			order: 12;
+		}
+	}
+
+	@include to-xs {
+		&-xs-first {
+			order: -1;
+		}
+
+		&-xs-last {
+			order: 13;
+		}
+
+		&-xs-0 {
+			order: 0;
+		}
+
+		&-xs-1 {
+			order: 1;
+		}
+
+		&-xs-2 {
+			order: 2;
+		}
+
+		&-xs-3 {
+			order: 3;
+		}
+
+		&-xs-4 {
+			order: 4;
+		}
+
+		&-xs-5 {
+			order: 5;
+		}
+
+		&-xs-6 {
+			order: 6;
+		}
+
+		&-xs-7 {
+			order: 7;
+		}
+
+		&-xs-8 {
+			order: 8;
+		}
+
+		&-xs-9 {
+			order: 9;
+		}
+
+		&-xs-10 {
+			order: 10;
+		}
+
+		&-xs-11 {
+			order: 11;
+		}
+
+		&-xs-12 {
+			order: 12;
+		}
+	}
+}

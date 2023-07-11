@@ -6,6 +6,21 @@
 		"color-hex-case": "upper",
 		"color-hex-length": "long",
 		"color-named": "never",
+		"color-no-invalid-hex": true,
+		"color-no-hex": [
+			true,
+			{
+			"message": "В проекте используются переменные SCSS. Назначьте переменную в файле variables.scss"
+			}
+		],
+		"length-zero-no-unit": [
+			true,
+			{
+				"ignore": [
+					"custom-properties"
+				]
+			}
+		],
 		"string-quotes": "double",
 		"declaration-no-important": true,
 		"at-rule-no-unknown": null,
